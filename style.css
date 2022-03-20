@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: inline-flex;
+    background-color: black;
+    color: #ffffff;
+}
+.container{
+    float: left;
+    border: 2px solid black;
+    margin-right:0px;
+    width: 200px;
+}
+.container1{
+    margin-left: 100px;
+    width: 70%;
+    margin-right: 100px;
+    position: relative;
+    text-align: left;
+}
+
+img{
+    width: 100%;
+    height: 300px;
+}
+.pic{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.container2{
+    float:right;
+    margin-left: -90px;
+    margin-right: 0px;
+}
+.center-center{
+    position: absolute;
+    bottom: 8px;
+    right: 2px;
+}
+.bottom-center{
+position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
